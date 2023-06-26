@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jose Salazar</title>
+    <link rel="shortcut icon" href="favicon.png.png">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <a href="#inicio"> 
+            <img src="Logo.png" alt="Eidos">
+        </a> 
+        
+        <nav>
+             <ul id="menu">
+                 <li class="menu-item">
+                      <a href=#inicio> Inicio</a>
+                 </li>
+
+                 <li class="menu-item">
+                    <a href=#contacto> Contacto</a>
+                 </li>
+
+             </ul>
+
+        </nav>
+
+    </header>
+
+    <!-- La estructura básica y la vinculación con CSS estan listas. A codear! 💪  -->
+    <!-- En este archivo escriban su HTML -->
+     <main>
+        <section id="inicio">
+            <figure class="presentacion-img">
+                <img src="jose3.jpg" alt="Jose">
+            </figure>
+
+            <article class="presentacion">
+                <h1>Hola! Soy Jose</h1>
+                <p> Nacido en la Isla de Margarita - Venezuela, el 21 de mayo de 1990. Realize mis estudios univeristarios en la Univeridad de Oriente U.D.O, Núcleo de Nueva Esparta recibiendo el titulo de Licenciado en Administración de Empresas, actualmente me encuentro residenciado en Santiago de chile desde hace 5 años.</p>
+                <a href="CV Jose Salazar.pdf" target="_blank" 
+                aria-label="descargar cv" class="boton"> Descargar CV</a>
+            </article>
+
+        </section>
+
+        <section id="contacto">
+
+            <article class="informacion">
+                <h2> Hablemos! </h2>
+                <p> Soy acreedor de la oportunidad de aprender acerca del tema, de la programación y el desarrollo de las páginas web. Para retomar los conocimientos que fue impartidos durantes mis primeros comienzos en la Universidad de Oriente, donde ejercí 5 semestre de la carrera de Licenciatura en Informatica.</p>
+            </article>
+
+            <figure class="imagenes">
+                 <a href="https://outlook.live.com/owa/" target="_blank"> 
+                    <img src="mail.png" alt="mail"> 
+                 </a>
+                 <a href="https://github.com/" target="_blank">
+                    <img src="github.png" alt="github"> 
+                 </a>
+                 <a href="https://www.linkedin.com/learning/subscription/topics?src=go-pa&trk=sem-ga_campid.17476246927_asid.140212061440_crid.603529552306_kw.linkedin%20learning_d.c_tid.kwd-310582843911_n.g_mt.e_geo.9099811&mcid=6977654453860491271&cid=&gclid=Cj0KCQjw3a2iBhCFARIsAD4jQB15UrlkZyiFX0IAGxD7xVKBKeZwU1PbQVpb2geJZj55FwlTQf1C5NoaAsxLEALw_wcB&gclsrc=aw.ds/" target="_blank">
+                    <img src="linkedin.png" alt="linkedin">
+                 </a>
+            </figure> 
+        </section>
+      <div id="xdiv">
+         <input type="checkbox" id="cerrar" onclick="cerrar_click()">
+        <label for="cerrar" id="btn-cerrar">X</label>
+      </div>
+       
+    
+        <div class="modal" id="modal">
+            <div class="contenido">
+            <img src="modal.png" alt="">
+            <h2>¡Agradecimientos!</h2>
+            <p>Muchas gracias a todos los que participaron en este proyecto. Sin su ayuda, no habría sido posible llevarlo a cabo. Agradezco también a los tutores Marcel y Hazer que proporcionaron sus conocimeintos y consejos a lo largo del camino. Sin su guía, hubiéramos estado perdidos. Por último, quiero dar las gracias a Código Pa´lante y todos aquellos que ofrecieron su apoyo, ya sea moral o material para la realización y aprendizaje de este hermoso proyecto.</p>
+            </div>
+        </div>
+
+     </main>
+
+
+     <footer>
+            Código Latam
+
+
+     </footer>
+
+ <script src="js/main.js"></script>
+</body>
+</html>
